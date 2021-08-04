@@ -1,3 +1,86 @@
+# Function and Console I/O
+```python3
+# PEP 함수 사이 2줄씩 비운다.
+def addition(x, y):
+  return x+y
+
+
+def multiplication(x, y):
+  return x*y
+
+
+def divided_by_2(x):
+  return x/2
+
+
+# __name__ 코드 부분은 python Shell에서 호출 할 경우 실행되지 않음
+if __name__ == '__main__':
+  print(addition(10,5))
+  print(multiplication(10,5))
+  print(divided_by_2(50))
+```
+
+# String and advanced function concept
+```python3
+a = 'Team x boost'
+print(a.capitalize())
+print(a.title())
+print(a.count(a))
+print(a.find('a')) # 앞에서부터 탐색
+print(a.rfind('a')) # 뒤에서부터 탐색
+print(a.startswith('T'))
+print(a.endswith('t'))
+print(a.isdigit())
+print('123456'.isdigit())
+print("  Hello   ".strip())
+```
+
+- raw string
+```python3
+raw_string = r'이제 파이썬 공부 \n 레알'
+print(raw_string)
+```
+
+- File IO
+
+```python3
+!wget https://raw.githubusercontent.com/TeamLab/introduction_to_python_TEAMLAB_MOOC/master/code/6/yesterday.txt
+
+f = open("yesterday.txt",'r') 
+yesterday_lyric = ""
+
+while True:
+  line = f.readline() # 라인 한 줄 씩 읽어오기
+  if not line:
+    break
+  yesterday_lyric = yesterday_lyric + line.strip() + "\n"
+f.close() # with open을 사용하지 않으면 필수
+n_of_yesterday = yesterday_lyric.upper().count("YESTERDAY")
+print(n_of_yesterday)
+```
+
+- 함수 호출 방식 
+1. call by value : 값만 넘김
+2. call by reference : 메모리 주소 넘김
+3. call by object reference : 파이썬은 객체의 주소가 함수로 전달
+
+```python3
+def spam(eggs):
+  eggs.append(1) # 기존 객체의 주소값에 1 추가
+  eggs = [2,3] # 새로운 객체 생성
+
+ham = [0]
+spam(ham)
+print(ham)
+```
+
+- function type hints
+```python3
+# (변수명: 변수형) -> 반환형
+def type_hint_example(name: str) -> str:
+  return f"Hello, {name}"
+```
+
 # Python Data Structure
 
 namedtuple
