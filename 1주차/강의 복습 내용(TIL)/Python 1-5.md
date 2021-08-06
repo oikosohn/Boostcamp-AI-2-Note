@@ -1,3 +1,5 @@
+코드 발췌 : 프리코스 강의
+
 # Function and Console I/O
 ```python3
 # PEP 함수 사이 2줄씩 비운다.
