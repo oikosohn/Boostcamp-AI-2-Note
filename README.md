@@ -16,6 +16,6 @@
 ### U-stage
 - 6주차 : Computer Vision
 - 7주차 : Computer Vision
-- 8주차 : 특강
+- 8주차 : AI 개발 및 윤리 특강
 
 ### P-stage
