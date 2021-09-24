@@ -16,6 +16,6 @@
 ### U-stage
 - 6주차 : Computer Vision
 - 7주차 : Computer Vision
-- 8주차 : 시각화 
+- 8주차 : 특강
 
 ### P-stage
