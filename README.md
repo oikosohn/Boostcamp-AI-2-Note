@@ -19,3 +19,9 @@
 - 8주차 : AI 개발 및 윤리 특강
 
 ### P-stage
+- 9주차 : Object detection
+- 10주차 : Object detection
+- 11주차 : Object detection
+- 12주차 : Semantic segmentation
+- 13주차 : Semantic segmentation
+- 14주차 : Semantic segmentation
