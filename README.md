@@ -25,3 +25,13 @@
 - 12주차 : Semantic segmentation
 - 13주차 : Semantic segmentation
 - 14주차 : Semantic segmentation
+
+## Level 3
+### P-stage
+- 15주차 : Data management, OCR
+- 16주차 : Data management, OCR
+- 17주차 : Model optimization
+- 18주차 : Model optimization
+- 19주차 : Product serving
+- 20주차 : Product serving
+- 21주차 : Product serving
